@@ -1,0 +1,136 @@
+/* 头部大logo */
+.g-larout{
+    width: 100%;
+    max-width: 640px;
+    min-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #C62630;
+}
+.g-larout>.m-header{
+    width: 100%;
+    overflow: hidden;
+}
+.g-larout>.m-header>img{
+    width: 100%;
+    display: block;
+}
+
+/* 微信 */
+.m-main{
+    padding:0 6px 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.m-main>.m-weixin{
+    margin:0 auto;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.m-main>.m-weixin>.m-top{
+    width: 34%;
+    margin: 20px auto 25px;
+}
+.m-main>.m-weixin>.m-top>img{
+    width: 100%;
+    display: block;
+}
+.m-main>.m-weixin>.m-down{
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto 30px;
+}
+.m-main>.m-weixin>.m-down>ul>li{
+    float: left;
+    width: 49%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #CC3C45;
+    position: relative;
+}
+.m-main>.m-weixin>.m-down>ul>li:nth-of-type(1){
+    margin-right:1%;
+}
+.m-main>.m-weixin>.m-down>ul>li:nth-of-type(2){
+    margin-left:1%;
+}
+.m-main>.m-weixin>.m-down>ul>li:nth-of-type(3){
+    margin-right:1%;
+    margin-top:6px;
+}
+.m-main>.m-weixin>.m-down>ul>li:nth-of-type(4){
+    margin-left:1%;
+    margin-top:6px;
+}
+.m-main>.m-weixin>.m-down>ul>li>div{
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.m-main>.m-weixin>.m-down>ul>li>div>img{
+    width: 100%;
+    display: block;
+}
+.m-main>.m-weixin>.m-down>ul>li>a{
+    position: absolute;
+    width: 50%;
+    height:100%;
+    top:0;
+}
+.m-main>.m-weixin>.m-down>ul>li>a.m-left{
+    left:0;
+}
+.m-main>.m-weixin>.m-down>ul>li>a.m-right{
+    right:0;
+}
+
+/* list */
+.g-list{
+    background-color: #F0F0F0;
+}
+.m-nav{
+    height: 62px;
+    border-bottom:1px solid #ccc;
+    background-color: #fff;
+    font-size: 18px;
+    line-height:62px;
+    padding-left:5.5%;
+    color:#666;
+}
+.m-con{
+    background-color: #F0F0F0;
+    padding:22px 4% 40px;
+    overflow: hidden;
+}
+.m-con ul{
+    width: 100%;
+    overflow: hidden;
+}
+.m-con ul li{
+    width: 25%;
+    height:auto;
+    float: left;
+    margin-bottom:34px;
+}
+.m-con ul li a{
+    display:block;
+}
+.m-con ul li a img{
+    width: 50px;
+    height:50px;
+    display: block;
+    margin:0 auto;
+}
+.m-con ul li a p{
+    text-align: center;
+    font-size: 14px;
+    color:#333;
+    height: 30px;
+    line-height: 16px;
+    padding:5px 3px;
+}
+
+
+
